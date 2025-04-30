@@ -1,0 +1,28 @@
+{
+  "plugins": {
+    "TestPlugin": {
+      "name": "TestPlugin",
+      "versions": [
+        "0.0.5"
+      ],
+      "latest_version": "0.0.5",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "Unknown",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "commands": [],
+      "configs": [
+        {
+          "name": "info",
+          "full_key": "TestPlugin.info",
+          "default": "测试配置项",
+          "type": "str"
+        }
+      ],
+      "repository": "https://github.com/huan-yp/TestPlugin",
+      "sub_repo": "plugins/TestPlugin/sub-repo.json"
+    }
+  },
+  "last_update": "2025-04-30 17:16:05"
+}
