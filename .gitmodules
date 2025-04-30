@@ -1,0 +1,4 @@
+[submodule "plugins/TestPlugin"]
+	path = plugins/TestPlugin
+	url = https://github.com/huan-yp/TestPlugin.git
+	branch = v0.0.5
