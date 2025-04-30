@@ -3,15 +3,41 @@
     "TestPlugin": {
       "name": "TestPlugin",
       "versions": [
+        "0.0.7",
         "0.0.6"
       ],
-      "latest_version": "0.0.6",
+      "latest_version": "0.0.7",
       "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
       "author": "Unknown",
       "plugin_dependencies": {},
       "tags": [],
       "homepage": "",
-      "commands": [],
+      "funcs": [
+        {
+          "name": "测试用户功能",
+          "plugin_name": "TestPlugin",
+          "description": "",
+          "usage": "",
+          "examples": [],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "测试管理员功能",
+          "plugin_name": "TestPlugin",
+          "description": "",
+          "usage": "",
+          "examples": [],
+          "tags": [],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
       "configs": [
         {
           "name": "info",
@@ -20,9 +46,8 @@
           "type": "str"
         }
       ],
-      "repository": "https://github.com/huan-yp/TestPlugin",
-      "sub_repo": "plugins/TestPlugin/sub-repo.json"
+      "repository": "https://github.com/huan-yp/TestPlugin"
     }
   },
-  "last_update": "2025-04-30 17:23:22"
+  "last_update": "2025-04-30 17:28:42"
 }
