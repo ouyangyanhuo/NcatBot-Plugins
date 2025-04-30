@@ -2,3 +2,7 @@
 	path = plugins/TestPlugin
 	url = https://github.com/huan-yp/TestPlugin.git
 	branch = v0.0.7
+[submodule "plugins/LLM_API"]
+	path = plugins/LLM_API
+	url = https://github.com/huan-yp/LLM_API.git
+	branch = v0.0.1

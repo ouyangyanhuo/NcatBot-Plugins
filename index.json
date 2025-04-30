@@ -47,7 +47,54 @@
         }
       ],
       "repository": "https://github.com/huan-yp/TestPlugin"
+    },
+    "LLM_API": {
+      "name": "LLM_API",
+      "versions": [
+        "0.0.1"
+      ],
+      "latest_version": "0.0.1",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "Unknown",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "test",
+          "plugin_name": "LLM_API",
+          "description": "",
+          "usage": "",
+          "examples": [],
+          "tags": [],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
+      "configs": [
+        {
+          "name": "url",
+          "full_key": "LLM_API.url",
+          "default": "url",
+          "type": "str"
+        },
+        {
+          "name": "api",
+          "full_key": "LLM_API.api",
+          "default": "api",
+          "type": "str"
+        },
+        {
+          "name": "model",
+          "full_key": "LLM_API.model",
+          "default": "model",
+          "type": "str"
+        }
+      ],
+      "repository": "https://github.com/huan-yp/LLM_API"
     }
   },
-  "last_update": "2025-04-30 17:28:42"
+  "last_update": "2025-04-30 17:37:45"
 }
