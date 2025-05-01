@@ -98,9 +98,10 @@
     "Lolicon": {
       "name": "Lolicon",
       "versions": [
+        "0.0.4",
         "0.0.3"
       ],
-      "latest_version": "0.0.3",
+      "latest_version": "0.0.4",
       "description": "发送随机二次元图片",
       "author": "huan-yp",
       "plugin_dependencies": {},
@@ -169,5 +170,5 @@
       "repository": "https://github.com/huan-yp/Lolicon"
     }
   },
-  "last_update": "2025-05-01 11:09:18"
+  "last_update": "2025-05-01 11:58:09"
 }
