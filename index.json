@@ -94,7 +94,80 @@
         }
       ],
       "repository": "https://github.com/huan-yp/LLM_API"
+    },
+    "Lolicon": {
+      "name": "Lolicon",
+      "versions": [
+        "0.0.3"
+      ],
+      "latest_version": "0.0.3",
+      "description": "发送随机二次元图片",
+      "author": "huan-yp",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "load_image",
+          "plugin_name": "Lolicon",
+          "description": "从配置的路径中加载图片",
+          "usage": "",
+          "examples": [
+            "/load_image"
+          ],
+          "tags": [
+            "admin"
+          ],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "status",
+          "plugin_name": "Lolicon",
+          "description": "查看当前图片和路径状态",
+          "usage": "",
+          "examples": [
+            "/status"
+          ],
+          "tags": [
+            "admin"
+          ],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "/loli",
+          "plugin_name": "Lolicon",
+          "description": "发送随机二次元图片",
+          "usage": "/loli [数量] - 发送 1-16 张随机二次元图片，默认为1张",
+          "examples": [
+            "/loli",
+            "/loli 3",
+            "/loli 10"
+          ],
+          "tags": [
+            "user"
+          ],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
+      "configs": [
+        {
+          "name": "path",
+          "full_key": "Lolicon.path",
+          "default": "plugins/Lolicon/images",
+          "type": "str"
+        }
+      ],
+      "repository": "https://github.com/huan-yp/Lolicon"
     }
   },
-  "last_update": "2025-04-30 17:37:45"
+  "last_update": "2025-05-01 11:09:18"
 }
