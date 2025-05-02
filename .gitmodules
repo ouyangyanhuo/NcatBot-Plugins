@@ -9,4 +9,4 @@
 [submodule "plugins/Lolicon"]
 	path = plugins/Lolicon
 	url = https://github.com/huan-yp/Lolicon.git
-	branch = v0.0.5
+	branch = v0.0.6
