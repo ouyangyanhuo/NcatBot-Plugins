@@ -98,17 +98,34 @@
     "Lolicon": {
       "name": "Lolicon",
       "versions": [
+        "0.0.6",
         "0.0.5",
         "0.0.4",
         "0.0.3"
       ],
-      "latest_version": "0.0.5",
+      "latest_version": "0.0.6",
       "description": "发送随机二次元图片",
       "author": "huan-yp",
       "plugin_dependencies": {},
       "tags": [],
       "homepage": "",
       "funcs": [
+        {
+          "name": "今日老婆",
+          "plugin_name": "Lolicon",
+          "description": "发送今日老婆",
+          "usage": "",
+          "examples": [
+            "/今日老婆"
+          ],
+          "tags": [
+            "user"
+          ],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
         {
           "name": "load_image",
           "plugin_name": "Lolicon",
@@ -142,10 +159,26 @@
           "metadata": {}
         },
         {
+          "name": "add",
+          "plugin_name": "Lolicon",
+          "description": "添加图片搜索路径",
+          "usage": "",
+          "examples": [
+            "/add /dir/to/image/"
+          ],
+          "tags": [
+            "admin"
+          ],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        },
+        {
           "name": "/loli",
           "plugin_name": "Lolicon",
           "description": "发送随机二次元图片",
-          "usage": "/loli [数量] - 发送 1-16 张随机二次元图片，默认为1张",
+          "usage": "/loli [数量] - 发送若干张随机二次元图片，默认为1张",
           "examples": [
             "/loli",
             "/loli 3",
@@ -166,10 +199,40 @@
           "full_key": "Lolicon.path",
           "default": "plugins/Lolicon/images",
           "type": "str"
+        },
+        {
+          "name": "recursive",
+          "full_key": "Lolicon.recursive",
+          "default": false,
+          "type": "bool"
+        },
+        {
+          "name": "batch",
+          "full_key": "Lolicon.batch",
+          "default": 5,
+          "type": "int"
+        },
+        {
+          "name": "lim_f",
+          "full_key": "Lolicon.lim_f",
+          "default": 3,
+          "type": "int"
+        },
+        {
+          "name": "lim_u",
+          "full_key": "Lolicon.lim_u",
+          "default": 10,
+          "type": "int"
+        },
+        {
+          "name": "lim_a",
+          "full_key": "Lolicon.lim_a",
+          "default": 30,
+          "type": "int"
         }
       ],
       "repository": "https://github.com/huan-yp/Lolicon"
     }
   },
-  "last_update": "2025-05-01 14:23:42"
+  "last_update": "2025-05-02 12:35:48"
 }
