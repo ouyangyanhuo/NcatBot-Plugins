@@ -98,12 +98,13 @@
     "Lolicon": {
       "name": "Lolicon",
       "versions": [
+        "0.0.7",
         "0.0.6",
         "0.0.5",
         "0.0.4",
         "0.0.3"
       ],
-      "latest_version": "0.0.6",
+      "latest_version": "0.0.7",
       "description": "发送随机二次元图片",
       "author": "huan-yp",
       "plugin_dependencies": {},
@@ -420,5 +421,5 @@
       "repository": "https://github.com/huan-yp/StableDiffusion"
     }
   },
-  "last_update": "2025-05-10 21:08:05"
+  "last_update": "2025-05-10 21:49:51"
 }
