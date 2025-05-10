@@ -232,7 +232,149 @@
         }
       ],
       "repository": "https://github.com/huan-yp/Lolicon"
+    },
+    "StableDiffusion": {
+      "name": "StableDiffusion",
+      "versions": [
+        "0.0.1"
+      ],
+      "latest_version": "0.0.1",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "huan-yp",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "draw",
+          "plugin_name": "StableDiffusion",
+          "description": "测试功能",
+          "usage": "/draw [提示词]",
+          "examples": [
+            "/test 1girl,"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "unload_model",
+          "plugin_name": "StableDiffusion",
+          "description": "卸载当前模型",
+          "usage": "/unload_model",
+          "examples": [
+            "/unload_model"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "reload_model",
+          "plugin_name": "StableDiffusion",
+          "description": "重新加载模型",
+          "usage": "/reload_model",
+          "examples": [
+            "/reload_model"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "list_model",
+          "plugin_name": "StableDiffusion",
+          "description": "列出可用模型",
+          "usage": "/list_model",
+          "examples": [
+            "/list_model"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "switch_model",
+          "plugin_name": "StableDiffusion",
+          "description": "切换模型",
+          "usage": "/switch_model [模型名称或编号]",
+          "examples": [
+            "/switch_model momoiropony_v15.safetensors",
+            "/switch_model 0"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
+      "configs": [
+        {
+          "name": "save_path",
+          "full_key": "StableDiffusion.save_path",
+          "default": "draw",
+          "type": "str"
+        },
+        {
+          "name": "hr",
+          "full_key": "StableDiffusion.hr",
+          "default": false,
+          "type": "bool"
+        },
+        {
+          "name": "hr_scale",
+          "full_key": "StableDiffusion.hr_scale",
+          "default": 1.5,
+          "type": "float"
+        },
+        {
+          "name": "sduri",
+          "full_key": "StableDiffusion.sduri",
+          "default": "http://127.0.0.1:7860/sdapi/v1",
+          "type": "str"
+        },
+        {
+          "name": "batch_size",
+          "full_key": "StableDiffusion.batch_size",
+          "default": 2,
+          "type": "int"
+        },
+        {
+          "name": "height",
+          "full_key": "StableDiffusion.height",
+          "default": 512,
+          "type": "int"
+        },
+        {
+          "name": "width",
+          "full_key": "StableDiffusion.width",
+          "default": 512,
+          "type": "int"
+        },
+        {
+          "name": "cfg",
+          "full_key": "StableDiffusion.cfg",
+          "default": 7,
+          "type": "int"
+        },
+        {
+          "name": "step",
+          "full_key": "StableDiffusion.step",
+          "default": 20,
+          "type": "int"
+        }
+      ],
+      "repository": "https://github.com/huan-yp/StableDiffusion"
     }
   },
-  "last_update": "2025-05-02 12:35:48"
+  "last_update": "2025-05-10 14:54:03"
 }
