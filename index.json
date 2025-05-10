@@ -236,10 +236,11 @@
     "StableDiffusion": {
       "name": "StableDiffusion",
       "versions": [
+        "0.0.3",
         "0.0.1"
       ],
-      "latest_version": "0.0.1",
-      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "latest_version": "0.0.3",
+      "description": "Stable Diffusion 接口插件",
       "author": "huan-yp",
       "plugin_dependencies": {},
       "tags": [],
@@ -253,6 +254,18 @@
           "examples": [
             "/test 1girl,"
           ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "help",
+          "plugin_name": "StableDiffusion",
+          "description": "查看帮助信息",
+          "usage": "/sdhelp",
+          "examples": [],
           "tags": [],
           "permission": "user",
           "permission_raise": false,
@@ -309,6 +322,36 @@
           "examples": [
             "/switch_model momoiropony_v15.safetensors",
             "/switch_model 0"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "tagger",
+          "plugin_name": "StableDiffusion",
+          "description": "分析图像生成提示词",
+          "usage": "/tagger [这里放图片]",
+          "examples": [
+            "/tagger [随便发张图片]",
+            "[随便放张图片] /tagger"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
+        },
+        {
+          "name": "regen",
+          "plugin_name": "StableDiffusion",
+          "description": "分析图像生成提示词, 并根据提示词重绘",
+          "usage": "/regen [这里放图片]",
+          "examples": [
+            "/regen [随便发张图片]",
+            "[随便放张图片] /regen"
           ],
           "tags": [],
           "permission": "user",
@@ -376,5 +419,5 @@
       "repository": "https://github.com/huan-yp/StableDiffusion"
     }
   },
-  "last_update": "2025-05-10 14:54:03"
+  "last_update": "2025-05-10 20:21:13"
 }
