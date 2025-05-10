@@ -6,11 +6,11 @@
 	path = plugins/LLM_API
 	url = https://github.com/huan-yp/LLM_API.git
 	branch = v0.0.1
-[submodule "plugins/Lolicon"]
-	path = plugins/Lolicon
-	url = https://github.com/huan-yp/Lolicon.git
-	branch = v0.0.6
 [submodule "plugins/StableDiffusion"]
 	path = plugins/StableDiffusion
 	url = https://github.com/huan-yp/StableDiffusion.git
 	branch = v0.0.4
+[submodule "plugins/Lolicon"]
+	path = plugins/Lolicon
+	url = https://github.com/huan-yp/Lolicon.git
+	branch = v0.0.7
