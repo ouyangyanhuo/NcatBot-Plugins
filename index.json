@@ -239,11 +239,12 @@
     "StableDiffusion": {
       "name": "StableDiffusion",
       "versions": [
+        "0.0.5",
         "0.0.4",
         "0.0.3",
         "0.0.1"
       ],
-      "latest_version": "0.0.4",
+      "latest_version": "0.0.5",
       "description": "Stable Diffusion 接口插件",
       "author": "huan-yp",
       "plugin_dependencies": {},
@@ -423,5 +424,5 @@
       "repository": "https://github.com/huan-yp/StableDiffusion"
     }
   },
-  "last_update": "2025-05-10 22:58:28"
+  "last_update": "2025-05-10 23:18:54"
 }
