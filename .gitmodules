@@ -14,3 +14,7 @@
 	path = plugins/StableDiffusion
 	url = https://github.com/huan-yp/StableDiffusion.git
 	branch = b0.0.5
+[submodule "plugins/WikiLink"]
+	path = plugins/WikiLink
+	url = https://github.com/yhgzs-111/WikiLink.git
+	branch = b1.3
