@@ -18,3 +18,7 @@
 	path = plugins/WikiLink
 	url = https://github.com/yhgzs-111/WikiLink.git
 	branch = b1.3
+[submodule "plugins/SystemStatus"]
+	path = plugins/SystemStatus
+	url = https://github.com/Isaaczhr/SystemStatus.git
+	branch = b0.0.1
