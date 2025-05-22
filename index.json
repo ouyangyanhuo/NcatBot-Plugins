@@ -437,7 +437,68 @@
       "funcs": [],
       "configs": [],
       "repository": "https://github.com/yhgzs-111/WikiLink"
+    },
+    "SystemStatus": {
+      "name": "SystemStatus",
+      "versions": [
+        "0.0.1"
+      ],
+      "latest_version": "0.0.1",
+      "description": "用来获取您的系统及运行状态信息的简单插件，兼容了联合国六大工作语言（用来水代码长度）",
+      "author": "Isaaczhr",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "status",
+          "plugin_name": "SystemStatus",
+          "description": "获取系统信息",
+          "usage": "/status",
+          "examples": [
+            "/status"
+          ],
+          "tags": [
+            "status",
+            "example"
+          ],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {
+            "category": "utility"
+          }
+        },
+        {
+          "name": "system",
+          "plugin_name": "SystemStatus",
+          "description": "获取状态信息",
+          "usage": "/system",
+          "examples": [
+            "/system"
+          ],
+          "tags": [
+            "system",
+            "example"
+          ],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {
+            "category": "utility"
+          }
+        }
+      ],
+      "configs": [
+        {
+          "name": "include_ip",
+          "full_key": "SystemStatus.include_ip",
+          "default": false,
+          "type": "bool"
+        }
+      ],
+      "repository": "https://github.com/Isaaczhr/SystemStatus"
     }
   },
-  "last_update": "2025-05-17 18:11:43"
+  "last_update": "2025-05-22 23:22:02"
 }
