@@ -498,7 +498,37 @@
         }
       ],
       "repository": "https://github.com/Isaaczhr/SystemStatus"
+    },
+    "BilibiliParser": {
+      "name": "BilibiliParser",
+      "versions": [
+        "1.0.0"
+      ],
+      "latest_version": "1.0.0",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "Unknown",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "bparser_login",
+          "plugin_name": "BilibiliParser",
+          "description": "B站扫码登录",
+          "usage": "/bparser_login",
+          "examples": [
+            "/bparser_login"
+          ],
+          "tags": [],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
+      "configs": [],
+      "repository": "https://github.com/meowhuan/BilibiliParser"
     }
   },
-  "last_update": "2025-05-22 23:22:02"
+  "last_update": "2025-06-05 08:46:15"
 }
