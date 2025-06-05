@@ -22,3 +22,7 @@
 	path = plugins/SystemStatus
 	url = https://github.com/Isaaczhr/SystemStatus.git
 	branch = b0.0.1
+[submodule "plugins/BiliSubscribe"]
+	path = plugins/BiliSubscribe
+	url = https://github.com/meowhuan/BiliSubscribe.git
+	branch = b1.0.0
