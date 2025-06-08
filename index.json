@@ -1,3 +1,4 @@
+
 {
   "plugins": {
     "TestPlugin": {
@@ -499,6 +500,37 @@
       ],
       "repository": "https://github.com/Isaaczhr/SystemStatus"
     },
+    "BilibiliParser": {
+      "name": "BilibiliParser",
+      "versions": [
+        "1.0.0"
+      ],
+      "latest_version": "1.0.0",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "Unknown",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [
+        {
+          "name": "bparser_login",
+          "plugin_name": "BilibiliParser",
+          "description": "B站扫码登录",
+          "usage": "/bparser_login",
+          "examples": [
+            "/bparser_login"
+          ],
+          "tags": [],
+          "permission": "admin",
+          "permission_raise": true,
+          "reply": false,
+          "metadata": {}
+        }
+      ],
+      "configs": [],
+      "repository": "https://github.com/meowhuan/BilibiliParser"
+    }
+  },
     "CS2CaseSimulator": {
       "name": "CS2CaseSimulator",
       "versions": [
@@ -538,7 +570,6 @@
       ],
       "configs": [],
       "repository": "https://github.com/175062628/CS2CaseSimulator"
-    }
-  },
+    },
   "last_update": "2025-06-08 18:00:18"
 }
