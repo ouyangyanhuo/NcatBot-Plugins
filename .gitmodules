@@ -26,3 +26,9 @@
 	path = plugins/BilibiliParser
 	url = https://github.com/meowhuan/BilibiliParser.git
 	branch = b1.0.0
+=======
+[submodule "plugins/CS2CaseSimulator"]
+	path = plugins/CS2CaseSimulator
+	url = https://github.com/175062628/CS2CaseSimulator.git
+	branch = b0.0.1
+
