@@ -558,6 +558,21 @@
       "funcs": [],
       "configs": [],
       "repository": "https://github.com/pythagodzi11a/YiYanAPI"
+    },
+    "ModelChat": {
+      "name": "ModelChat",
+      "versions": [
+        "1.0.0"
+      ],
+      "latest_version": "1.0.0",
+      "description": "大模型聊天插件，支持本地大模型和云端大模型",
+      "author": "Magneto",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [],
+      "configs": [],
+      "repository": "https://github.com/ouyangyanhuo/ModelChat"
     }
   },
   "CS2CaseSimulator": {
@@ -712,5 +727,5 @@
     "configs": [],
     "repository": "https://github.com/meowhuan/BiliSubscribe"
   },
-  "last_update": "2025-08-03 16:01:17"
+  "last_update": "2025-08-03 18:10:15"
 }
