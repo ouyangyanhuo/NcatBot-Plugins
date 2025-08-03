@@ -543,6 +543,21 @@
       "funcs": [],
       "configs": [],
       "repository": "https://github.com/pythagodzi11a/Weather"
+    },
+    "YiYanAPI": {
+      "name": "YiYanAPI",
+      "versions": [
+        "0.0.1"
+      ],
+      "latest_version": "0.0.1",
+      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "author": "pythagodzilla",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [],
+      "configs": [],
+      "repository": "https://github.com/pythagodzi11a/YiYanAPI"
     }
   },
   "CS2CaseSimulator": {
@@ -697,5 +712,5 @@
     "configs": [],
     "repository": "https://github.com/meowhuan/BiliSubscribe"
   },
-  "last_update": "2025-08-03 00:28:14"
+  "last_update": "2025-08-03 16:01:17"
 }
