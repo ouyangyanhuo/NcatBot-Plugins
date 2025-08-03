@@ -46,4 +46,3 @@
 [submodule "plugins/ModelChat"]
 	path = plugins/ModelChat
 	url = https://github.com/ouyangyanhuo/ModelChat.git
-	branch = b0.0.1
