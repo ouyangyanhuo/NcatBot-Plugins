@@ -43,3 +43,6 @@
 	path = plugins/YiYanAPI
 	url = https://github.com/pythagodzi11a/YiYanAPI.git
 	branch = b0.0.1
+[submodule "plugins/ModelChat"]
+	path = plugins/ModelChat
+	url = https://github.com/ouyangyanhuo/ModelChat.git
