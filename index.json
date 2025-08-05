@@ -548,10 +548,11 @@
     "YiYanAPI": {
       "name": "YiYanAPI",
       "versions": [
+        "0.1.0",
         "0.0.1"
       ],
-      "latest_version": "0.0.1",
-      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+      "latest_version": "0.1.0",
+      "description": "每日一言",
       "author": "pythagodzilla",
       "plugin_dependencies": {},
       "tags": [],
@@ -728,5 +729,5 @@
     "configs": [],
     "repository": "https://github.com/meowhuan/BiliSubscribe"
   },
-  "last_update": "2025-08-04 17:00:47"
+  "last_update": "2025-08-05 00:55:29"
 }

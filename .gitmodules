@@ -34,11 +34,10 @@
 	path = plugins/CS2CaseSimulator
 	url = https://github.com/175062628/CS2CaseSimulator.git
 	branch = b0.0.1
-  
 [submodule "plugins/YiYanAPI"]
 	path = plugins/YiYanAPI
 	url = https://github.com/pythagodzi11a/YiYanAPI.git
-	branch = b0.0.1
+	branch = b0.1.0
 [submodule "plugins/ModelChat"]
 	path = plugins/ModelChat
 	url = https://github.com/ouyangyanhuo/ModelChat.git
