@@ -548,10 +548,11 @@
     "YiYanAPI": {
       "name": "YiYanAPI",
       "versions": [
+        "0.1.1",
         "0.1.0",
         "0.0.1"
       ],
-      "latest_version": "0.1.0",
+      "latest_version": "0.1.1",
       "description": "每日一言",
       "author": "pythagodzilla",
       "plugin_dependencies": {},
@@ -571,7 +572,11 @@
       "latest_version": "1.2.0",
       "description": "大模型聊天插件，支持本地大模型、云端大模型、图像识别",
       "author": "Magneto",
-      "plugin_dependencies": {"openai": "1.98.1","ollama": "0.5.1","requests": "2.32.4"},
+      "plugin_dependencies": {
+        "openai": "1.98.1",
+        "ollama": "0.5.1",
+        "requests": "2.32.4"
+      },
       "tags": [],
       "homepage": "",
       "funcs": [],
@@ -731,5 +736,5 @@
     "configs": [],
     "repository": "https://github.com/meowhuan/BiliSubscribe"
   },
-  "last_update": "2025-08-05 19:58:31"
+  "last_update": "2025-08-18 18:33:25"
 }
