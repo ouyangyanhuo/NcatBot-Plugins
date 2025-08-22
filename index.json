@@ -565,23 +565,33 @@
     "ModelChat": {
       "name": "ModelChat",
       "versions": [
-        "1.2.0",
-        "1.1.0",
+        "2.0.0",
         "1.0.0"
       ],
-      "latest_version": "1.2.0",
+      "latest_version": "2.0.0",
       "description": "大模型聊天插件，支持本地大模型、云端大模型、图像识别",
       "author": "Magneto",
-      "plugin_dependencies": {
-        "openai": "1.98.1",
-        "ollama": "0.5.1",
-        "requests": "2.32.4"
-      },
+      "plugin_dependencies": {},
       "tags": [],
       "homepage": "",
       "funcs": [],
       "configs": [],
       "repository": "https://github.com/ouyangyanhuo/ModelChat"
+    },
+    "TodayWifePlugin": {
+      "name": "TodayWifePlugin",
+      "versions": [
+        "1.0.0"
+      ],
+      "latest_version": "1.0.0",
+      "description": "随机抽取一位群成员作为“今日老婆”，并展示其昵称和头像",
+      "author": "Magneto",
+      "plugin_dependencies": {},
+      "tags": [],
+      "homepage": "",
+      "funcs": [],
+      "configs": [],
+      "repository": "https://github.com/ouyangyanhuo/TodayWifePlugin"
     }
   },
   "CS2CaseSimulator": {
@@ -736,5 +746,5 @@
     "configs": [],
     "repository": "https://github.com/meowhuan/BiliSubscribe"
   },
-  "last_update": "2025-08-18 18:33:25"
+  "last_update": "2025-08-22 14:00:35"
 }
