@@ -37,6 +37,7 @@
 [submodule "plugins/ModelChat"]
 	path = plugins/ModelChat
 	url = https://github.com/ouyangyanhuo/ModelChat.git
+	branch = v2.0.0
 [submodule "plugins/Weather"]
 	path = plugins/Weather
 	url = https://github.com/pythagodzi11a/Weather.git
@@ -45,3 +46,7 @@
 	path = plugins/YiYanAPI
 	url = https://github.com/pythagodzi11a/YiYanAPI.git
 	branch = b0.1.1
+[submodule "plugins/TodayWifePlugin"]
+	path = plugins/TodayWifePlugin
+	url = https://github.com/ouyangyanhuo/TodayWifePlugin.git
+	branch = v1.0.0
